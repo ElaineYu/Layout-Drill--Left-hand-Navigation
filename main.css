@@ -9,4 +9,34 @@
   */
   margin: 0 auto;  
   width: 720px;
+  position: relative;
+}
+
+header{
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+
+nav{
+  display: inline;
+  width:100px;
+  float:left;
+}
+
+.content{
+  padding-left: 10px;
+  display: inline;
+  border-left: 1px solid gray;
+  width:578px;
+  float:right;
+}
+
+.footer{
+   padding:10px 0;
+   border-top: 1px solid gray;
+   clear:both;
+   bottom:0;
+   width:100%;
+   padding-left: 120px;
+   /*height:40px;    Height of the footer */
 }
