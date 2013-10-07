@@ -8,31 +8,31 @@
     Don't change the container width.
   */
   margin: 0 auto;  
-  width: 720px;
-  position: relative;
+  width: 720px;  /*total width of container*/
+  position: relative; /* element is position relative to normal position*/
 }
 
 header{
-  text-align: center;
+  text-align: center; 
   border-bottom: 1px solid gray;
 }
 
 nav{
-  display: inline;
-  width:100px;
+  /*display: inline;
+  width:100px;*/
   float:left;
 }
 
 .content{
   padding-left: 10px;
-  display: inline;
-  border-left: 1px solid gray;
-  width:578px;
-  float:right;
+  /*display: inline;*/
+  border-left: 1px solid gray; /*border left of content*/
+  width: 578px;
+  float: right;
 }
 
 .footer{
-   padding:10px 0;
+  padding:10px 0;
    border-top: 1px solid gray;
    clear:both;
    bottom:0;
